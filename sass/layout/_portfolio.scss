@@ -34,18 +34,18 @@
 			1px 4px 6px rgba(0, 0, 0, 0.16);
 		cursor: pointer;
 	}
-	&:hover .project-wrap__text,
-	&:focus .project-wrap__text {
+	&:hover .project__overlay,
+	&:focus .project__overlay {
 		transform: translateY(0);
 	}
 }
 
-.project-wrap {
+.project__wrap {
 	position: relative;
 	overflow: hidden;
 }
 
-.project-wrap__text {
+.project__overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -61,7 +61,7 @@
 	transition-timing-function: var(--transition-timing);
 }
 
-.project__name {
+.project__box {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 24px;

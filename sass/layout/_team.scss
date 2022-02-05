@@ -1,13 +1,13 @@
-.section--team {
+.section--team-background {
 	background: #f5f4fa;
 }
 
-.team-list {
+.team {
 	display: flex;
 	margin-left: -30px;
 }
 
-.team-list__item {
+.team__item {
 	width: calc(100% / 4 - 30px);
 	margin-left: 30px;
 	background: var(--white-colore);
@@ -16,12 +16,12 @@
 	border-radius: 0px 0px 4px 4px;
 }
 
-.team-list__name {
+.team__box {
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
 
-.team-list__title {
+.team__title {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.18;
@@ -29,7 +29,7 @@
 	letter-spacing: 0.03em;
 }
 
-.team-list__text {
+.team__text {
 	font-size: 16px;
 	line-height: 1.18;
 	text-align: center;

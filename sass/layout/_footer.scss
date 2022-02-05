@@ -3,33 +3,38 @@
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
+
 .address {
 	font-style: normal;
 	margin-top: 20px;
 	width: 231px;
-	&-list &-list__item {
-		margin-bottom: 9px;
-	}
-	&-list__item:last-child {
-		margin: 0;
-	}
-	&-list__link {
-		font-size: 14px;
-		line-height: calc(24 / 14);
-		letter-spacing: 0.03em;
-		color: var(--white-colore);
-		position: relative;
-		transition-property: color;
-		transition-duration: var(--transition-duration);
-		transition-timing-function: var(--transition-timing);
-		&:hover,
-		&:focus {
-			color: var(--active-colore);
-		}
-	}	
 }
 
-.address-list__mail, .address-list__tell {
+.address-list .address-list__item {
+	margin-bottom: 9px;
+}
+
+.address-list__item:last-child {
+	margin: 0;
+}
+
+.address-list__link {
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	letter-spacing: 0.03em;
+	color: var(--white-colore);
+	position: relative;
+	transition-property: color;
+	transition-duration: var(--transition-duration);
+	transition-timing-function: var(--transition-timing);
+	&:hover,
+	&:focus {
+		color: var(--active-colore);
+	}
+}	
+
+
+.address-list__link {
 	font-size: 14px;
 	line-height: calc(24 / 14);
 	letter-spacing: 0.03em;
